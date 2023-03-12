@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Pokémern
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the Github repo for the Pokémern front end source code.
+My goal for this project is to see how far the MERN (MongoDB, Express, REACT, Node.js) tech stack can
+be pushed to make a Pokemon web app. The backend repo can be found [here]()
 
-## Available Scripts
+## Preliminary Implementation
 
-In the project directory, you can run:
+The ultimate goal of the project is for the web app to be used as a to do list app for 
+Pokemon who want to catch all the pokemon in their Pokedex.
 
-### `npm start`
+For the time being the project will be constrained to the first 151 Pokémon but
+will expand as popularity for the project evolves.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As a start users will be able to access pertinent info about the first 151
+they are trying to catch, but eventually they will be able to log in and keep
+track of all the Pokemon they have caught thus far.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Feature Roadmap Round 1
 
-### `npm test`
+- Pertinent Info about all of the first 151 Pokémon from [PokéAPI](https://pokeapi.co/)
+- A modal in which you can scroll through the Pokémon stats
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Feature Roadmap Round 2
 
-### `npm run build`
+- A search input that returns a Pokémon of interest.
+- A filter that returns Pokémon of only a certain type.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Feature Roadmap Round 3
+- User authentication and login
+- The ability to keep track of which Pokémon have been caught
+- The ability to determine which shiny Pokémon you have caught
