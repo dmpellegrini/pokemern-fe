@@ -10,8 +10,7 @@
 .modal-show {
   display: flex;
   justify-content: center;
-  background-color: rgba(255,255,255, .9);
-  outline: solid black;
+  background-color: rgba(240,255,255, .9);
 }
 
 .modal-content-container {
@@ -23,6 +22,7 @@
 
 .modal-close-button {
   font-size: 5vw;
+  border: none;
   width: 10vw;
   grid-column: 2;
   grid-row: 1;
@@ -32,6 +32,7 @@
 
 .modal-title {
   margin: 0;
+  padding: 0;
   font-size: 7vw;
   justify-self: center;
   grid-row: 2;
@@ -42,15 +43,19 @@
 .modal-image {
   justify-self: right;
   align-self: center;
+  padding: 0;
+  margin: 0;
   width: 40vw;
   grid-row: 3;
   grid-column: 1;
 }
 
 .modal-attributes-container {
+  justify-self: left;
+  align-self: center;
   grid-row: 3;
   grid-column: 2;
-  margin: 4vh 0 0 3vw;
+  margin: 2vh 0 0 3vw;
 }
 
 .modal-attributes-title {
@@ -60,7 +65,7 @@
 }
 
 .modal-attributes {
-  margin: 0 0 2vh 0;
+  margin: 0 0 1vh 0;
   padding: 0;
   font-size: 3vw;
   width: 35vw;
@@ -68,6 +73,7 @@
 }
 
 .modal-user-inputs-container {
+  margin-top: 1vh;
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
