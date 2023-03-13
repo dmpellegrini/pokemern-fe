@@ -4,7 +4,6 @@ import Navbar from './navbar/Navbar';
 import Home from './home/Home';
 import Modal from './modal/Modal';
 
-
 function App() {
   const [ modalClass, setModalClass ] = useState('Modal')
 

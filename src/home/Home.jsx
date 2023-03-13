@@ -9,15 +9,36 @@ function Home (props) {
   return (
     <div id="Home">
       <div className="home-button-container">
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
-        <Sprite showModal={showModal} spriteImage={bulbasaurImage} />
+        <Sprite 
+          showModal={showModal} 
+          spriteImage={bulbasaurImage} 
+          pokemonName={"bulbasaur"}
+        />
+        <Sprite 
+          showModal={showModal} 
+          spriteImage={bulbasaurImage} 
+          pokemonName={"bulbasaur"}
+        />
+        <Sprite 
+          showModal={showModal} 
+          spriteImage={bulbasaurImage} 
+          pokemonName={"bulbasaur"}
+        />
+        <Sprite 
+          showModal={showModal} 
+          spriteImage={bulbasaurImage} 
+          pokemonName={"bulbasaur"}
+        />
+        <Sprite 
+          showModal={showModal} 
+          spriteImage={bulbasaurImage} 
+          pokemonName={"bulbasaur"}
+        />
+        <Sprite 
+          showModal={showModal} 
+          spriteImage={bulbasaurImage} 
+          pokemonName={"bulbasaur"}
+        />
       </div>
 
     </div>
