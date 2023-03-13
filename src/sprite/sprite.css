@@ -1,0 +1,15 @@
+.Sprite {
+}
+
+.pokemon-image {
+  width: 100%;
+}
+
+.pokemon-title {
+  font-size: 3vw;
+  font-family: 'Tilt Neon', cursive;
+  padding: 0;
+  margin: 0;
+  transform: translateY(-200%);
+  position: relative;
+}
