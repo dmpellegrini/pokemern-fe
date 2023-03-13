@@ -68,8 +68,12 @@
   margin: 0 0 1vh 0;
   padding: 0;
   font-size: 3vw;
-  width: 35vw;
+  width: 40vw;
   overflow-wrap: break-word;
+}
+
+.modal-attributes-bio {
+  font-size: 2.5vw;
 }
 
 .modal-user-inputs-container {

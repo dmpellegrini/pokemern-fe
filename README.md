@@ -7,7 +7,7 @@ be pushed to make a Pokemon web app. The backend repo can be found [here]()
 ## Preliminary Implementation
 
 The ultimate goal of the project is for the web app to be used as a to do list app for 
-Pokemon who want to catch all the pokemon in their Pokedex.
+Pokémon players who want to catch all the pokemon in their Pokedex.
 
 For the time being the project will be constrained to the first 151 Pokémon but
 will expand as popularity for the project evolves.

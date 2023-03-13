@@ -18,7 +18,7 @@ function Modal (props) {
           <h4 className="modal-attributes-title" >Habitats:</h4>
           <p className="modal-attributes">Forest</p>
           <h4 className="modal-attributes-title" >Bio:</h4>
-          <p className="modal-attributes">as;ldkfja;lskdhgal;skdfja;lskdfja;lskdfha;lskdjfal;skdghal;skdfj;laksdghasdf</p>
+          <p className="modal-attributes modal-attributes-bio">ksdf;lakshdl;fkajs;dlkfj;alskdjf;laksjdf;lakjsd;flkajsd;lfkjas;ldkfjfa;lskdf;laskdff;laksjdf;flkajsd;flkjasd;lfkja;lskdjf;laksjdfas;ldkfja;lskdhgal;skdfja;lskdfja;lskdfha;lskdjfal;skdghal;skdfj;laksdghasdf</p>
         </div>
         <div className="modal-user-inputs-container">
           <h4 className="modal-input-titles">Caught?</h4>
