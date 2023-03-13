@@ -1,0 +1,32 @@
+.Navbar {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-title {
+  font-size: 8vw;
+  margin: 1vh 0 0 5vw;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #ffca01;
+  -webkit-text-stroke: .4vw;
+  -webkit-text-stroke-color: #185bc8;
+}
+
+.navbar-list {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  margin: 0 1vw 0 2vw;
+  padding: 0;
+}
+
+.navbar-list-item {
+  font-size: 5vw;
+  font-family: 'Tilt Neon', cursive;
+  margin: 1vh 2vw 0 2vw;
+  color: #185bc8;
+}
+
