@@ -1,4 +1,7 @@
 .Sprite {
+  border-radius: 1vw;
+  margin: 1vw;
+  background-color: rgba(240, 240, 240, 1);
 }
 
 .pokemon-image {
