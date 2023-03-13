@@ -11,7 +11,9 @@ function Navbar() {
         <h1 className="navbar-title">PoKéMern</h1>
         <ul className="navbar-list">
           <li className="navbar-list-item" >
-            Home
+            <a href="Home">
+              Home
+            </a>
           </li>
           <li className="navbar-list-item" >
             Search
