@@ -23,6 +23,7 @@ function App() {
     try {
       const response = await axios.get("https://pokemonrest-api-production.up.railway.app/pokemon/all")
       response.data.sort((a, b) => a.pokedexNumber - b.pokedexNumber)
+      console.log(response.data)
       setPokemons(response.data)
     } catch (error) {
       console.log(error)
