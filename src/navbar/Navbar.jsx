@@ -16,9 +16,6 @@ function Navbar() {
             </a>
           </li>
           <li className="navbar-list-item" >
-            Search
-          </li>
-          <li className="navbar-list-item" >
             <a href="https://github.com/dmpellegrini/pokemern-fe" target="_blank">
               Github
             </a>

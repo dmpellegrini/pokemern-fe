@@ -1,73 +1,71 @@
 .Modal {
-  position: fixed;
-  top: 20%;
-  width: 90vw;
-  margin: 5vw;
   display: none;
-  border-radius: 1vw;
 }
 
 .modal-show {
-  display: flex;
-  justify-content: center;
+  position: fixed;
+  width: 80%;
+  transform: translate(10%, 10%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1vw;
   background-color: rgba(240,255,255, .9);
 }
 
-.modal-content-container {
-  width: 90vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr 1fr; */
-}
-
 .modal-close-button {
-  font-size: 5vw;
-  border: none;
-  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4vw;
+  height: 4vw;
+  font-size: 2vw;
   grid-column: 2;
   grid-row: 1;
   justify-self: right;
   border-radius: 1vw;
+  border: none;
 }
 
 .modal-title {
-  margin: 0;
+  margin: 1vw;
   padding: 0;
-  font-size: 7vw;
+  font-size: 3vw;
   justify-self: center;
-  grid-row: 2;
-  grid-column: 1/span 2;
-
+  grid-row: 1;
+  /* grid-column: 1/span 2; */
 }
 
 .modal-image {
-  justify-self: right;
-  align-self: center;
+  object-fit: contain;
+  width: 100%;
+  max-height: 400px;
   padding: 0;
   margin: 0;
-  width: 40vw;
-  grid-row: 3;
+  grid-row: 2;
   grid-column: 1;
 }
 
 .modal-attributes-container {
   justify-self: left;
   align-self: center;
-  grid-row: 3;
+  width: 100%;
+  grid-row: 2;
   grid-column: 2;
   margin: 2vh 0 0 3vw;
+  border-radius: 1vw;
+  /* border: solid grey; */
 }
 
 .modal-attributes-title {
   margin: 0 0 .5vh 0;
   padding: 0;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .modal-attributes {
   margin: 0 0 1vh 0;
   padding: 0;
-  font-size: 3vw;
+  font-size: 2vw;
   width: 40vw;
   overflow-wrap: break-word;
 }
@@ -76,30 +74,17 @@
   font-size: 2.5vw;
 }
 
-.modal-user-inputs-container {
-  margin-top: 1vh;
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-row: 4;
-  grid-column: 1 /span 2;
+@media (max-width: 500px) {
+  .modal-title {
+    font-size: 4vw;
+  }
+  .modal-attributes-title {
+    font-size: 3vw;
+  }
+
+  .modal-close-button {
+    width: 6vw;
+    height: 6vw;
+    font-size: 4vw;
+  }
 }
-
-.modal-input-titles {
-  margin: 0;
-  font-size: 3vw;
-  grid-row: 1;
-  justify-self: center;
-} 
-
-.modal-user-input {
-  width: 1rem;
-  height: 1rem;
-  margin: 1vw 0 3vw 0;
-  padding: 0;
-  grid-row: 2;
-  justify-self: center;
-  align-self: center;
-}
-

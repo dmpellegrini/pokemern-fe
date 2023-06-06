@@ -12,3 +12,15 @@
   grid-row-gap: 2vw;
   margin: 0 2vw;
 }
+
+@media (min-width: 500px) {
+  .home-button-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-button-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  }
+}
