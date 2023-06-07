@@ -10,8 +10,8 @@ function App() {
   const [ modalData, setModalData ] = useState('Pokemon')
   const [ pokemons, setPokemons ] = useState([])
 
-  function showModal(pokemon) {
-    if (modalClass === "Modal"){
+  function showModal(pokemon, show) {
+    if (show){
       setModalClass('Modal modal-show')
     }else{
       setModalClass('Modal')
@@ -23,7 +23,6 @@ function App() {
     try {
       const response = await axios.get("https://pokemonrest-api-production.up.railway.app/pokemon/all")
       response.data.sort((a, b) => a.pokedexNumber - b.pokedexNumber)
-      console.log(response.data)
       setPokemons(response.data)
     } catch (error) {
       console.log(error)
@@ -41,6 +40,7 @@ function App() {
         viewStatus={modalClass} 
         showModal={showModal} 
         pokemonData={modalData}
+        allPokemonData={pokemons}
       />
       <Home showModal={showModal} pokemons={pokemons}/>
     </div>
